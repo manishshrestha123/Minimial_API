@@ -1,0 +1,19 @@
+﻿@RazorPageMinimialAPI_HostAddress = https://localhost:7166
+
+GET {{RazorPageMinimialAPI_HostAddress}}/api/students
+
+###
+
+POST {{RazorPageMinimialAPI_HostAddress}}/api/students
+Content-Type: application/json
+
+{
+  "Name" : "Manish",
+  "Age": "21",
+  "Grade" : "A"
+}
+###
+
+DELETE {{RazorPageMinimialAPI_HostAddress}}/api/students/5
+
+###
